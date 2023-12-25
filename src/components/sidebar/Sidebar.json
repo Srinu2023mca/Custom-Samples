@@ -1,0 +1,160 @@
+[
+  {
+    "title": "GENERAL",
+    "childrens": [
+      {
+        "title": "Dashboard",
+        "icon": "bi-grid",
+        "path": "/dashboard"
+      },
+      {
+        "title": "Parties",
+        "icon": "bi-people",
+        "path": "/parties"
+      },
+      {
+        "title": "Items",
+        "icon": "bi-boxes",
+        "childrens": [
+          {
+            "title": "Inventory",
+            "icon": "bi-box-seam",
+            "path": "/items/inventory"
+          },
+          {
+            "title": "Warehouse",
+            "icon": "bi-house-up",
+            "path": "/items/warehouse"
+          }
+        ]
+      },
+      {
+        "title": "Sales",
+        "icon": "bi-tag",
+        "childrens": [
+          {
+            "title": "Sales Invoice",
+            "icon": "bi-clipboard-check",
+            "path": "/sales/sales_invoice"
+          },
+          {
+            "title": "Quotation / Estimate",
+            "icon": "bi-files",
+            "path": "/sales/quetation_estimate"
+          },
+          {
+            "title": "Payment In",
+            "icon": "bi-card-heading",
+            "path": "/sales/payment_in"
+          },
+          {
+            "title": "Sales Return",
+            "icon": "bi-arrow-repeat",
+            "path": "/sales/sales_return"
+          },
+          {
+            "title": "Credit Note",
+            "icon": "bi-credit-card",
+            "path": "/sales/credit_note"
+          },
+          {
+            "title": "Delivery Challan",
+            "icon": "bi-receipt",
+            "path": "/sales/delivery_challan"
+          },
+          {
+            "title": "Proforma Invoice",
+            "icon": "bi-calendar4-week",
+            "path": "/sales/proforma_invoice"
+          }
+        ]
+      },
+      {
+        "title": "Purchases",
+        "icon": "bi-bag",
+        "childrens": [
+          {
+            "title": "Purchase Invoice",
+            "icon": "bi-clipboard2-check",
+            "path": "/purchases/purchase_invoice"
+          },
+          {
+            "title": "Payment Out",
+            "icon": "bi-card-heading",
+            "path": "/purchases/payment_out"
+          },
+          {
+            "title": "Purchase Return",
+            "icon": "bi-arrow-repeat",
+            "path": "/purchases/purchase_return"
+          },
+          {
+            "title": "Debit Note",
+            "icon": "bi-credit-card",
+            "path": "/purchases/debit_note"
+          },
+          {
+            "title": "Purchase Orders",
+            "icon": "bi-clipboard2-pulse",
+            "path": "/purchases/purchase_orders"
+          }
+        ]
+      },
+      {
+        "title": "Reports",
+        "icon": "bi-clipboard-data",
+        "path": "/reports/reports"
+      }
+    ]
+  },
+  {
+    "title": "ACCOUNTING SOLUTIONS",
+    "childrens": [
+      {
+        "title": "Cash & Bank",
+        "icon": "bi-bank",
+        "path": "/account_solutions/cash_bank"
+      },
+      {
+        "title": "E - Invoiceing",
+        "icon": "bi-file-text",
+        "path": "/account-solutions/e_invoiceing"
+      },
+      {
+        "title": "Automated Bills",
+        "icon": "bi-file-earmark-text",
+        "path": ""
+      },
+      {
+        "title": "Expenses",
+        "icon": "bi-wallet2",
+        "path": ""
+      }
+    ]
+  },
+  {
+    "title": "BUSINESS TOOLS",
+    "childrens": [
+      {
+        "title": "Staff Attendance & Payroll",
+        "icon": "bi-calendar-check",
+        "path": ""
+      },
+      {
+        "title": "Manage Users",
+        "icon": "bi-person-plus",
+        "path": ""
+      },
+      {
+        "title": "Online Store",
+        "icon": "bi-cart",
+        "path": ""
+      },
+      {
+        "title": "SMS Marketing",
+        "icon": "bi-wechat",
+        "path": ""
+      }
+    ]
+  }
+]
