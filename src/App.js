@@ -4,7 +4,7 @@ import './App.css';
 // import SigninNSignup from './components/LoginNSignin';
 // import Page404 from './components/PageNotFound';
 import Game from './components/SnakesNLadders';
-import Ladder from './components/SnakesNLadders/Ladder';
+// import Ladder from './components/SnakesNLadders/Ladder';
 function App() {
 
   const rungs = [
@@ -21,8 +21,8 @@ function App() {
       {/* <HamsterWheel/> */}
       {/* <SigninNSignup/> */}
       {/* <Page404/> */}
-      {/* <Game/> */}
-      <Ladder rungs={rungs}/>
+      <Game/>
+      {/* <Ladder rungs={rungs}/> */}
 
     </div>
   );
