@@ -1,7 +1,7 @@
 import './App.css';
 // import Sidebar from "./components/sidebar/index"
 // import HamsterWheel from './components/LoadingHamster';
-// import SigninNSignup from './components/LoginNSignin';
+import SigninNSignup from './components/LoginNSignin';
 // import Page404 from './components/PageNotFound';
 import Game from './components/SnakesNLadders';
 // import Ladder from './components/SnakesNLadders/Ladder';
@@ -19,9 +19,9 @@ function App() {
     <div className="App">
       {/* <Sidebar/> */}
       {/* <HamsterWheel/> */}
-      {/* <SigninNSignup/> */}
+      <SigninNSignup/>
       {/* <Page404/> */}
-      <Game/>
+      {/* <Game/> */}
       {/* <Ladder rungs={rungs}/> */}
 
     </div>
