@@ -5,6 +5,7 @@ import SigninNSignup from './components/LoginNSignin';
 // import Page404 from './components/PageNotFound';
 import Game from './components/SnakesNLadders';
 // import Ladder from './components/SnakesNLadders/Ladder';
+import SVGs from "./components/SVGs/index"
 function App() {
 
   const rungs = [
@@ -19,11 +20,11 @@ function App() {
     <div className="App">
       {/* <Sidebar/> */}
       {/* <HamsterWheel/> */}
-      <SigninNSignup/>
+      {/* <SigninNSignup/> */}
       {/* <Page404/> */}
       {/* <Game/> */}
       {/* <Ladder rungs={rungs}/> */}
-
+      <SVGs/>
     </div>
   );
 }
