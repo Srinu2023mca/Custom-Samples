@@ -6,14 +6,14 @@ import Sample3 from './Sample3';
 import Sample5 from './Sample5';
 const index = () => {
   return (
-    <div className='bg-black'>
-        {/* <Sample/>
+    <div className=''>
+        <Sample/>
         
-        <Sample1/>
-        <Sample2/>
+        {/* <Sample1/> */}
+        {/* <Sample2/> */}
 
-        <Sample3/> */}
-        <Sample5/>
+        {/* <Sample3/> */}
+        {/* <Sample5/> */}
     </div>
   )
 }

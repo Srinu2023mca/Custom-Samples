@@ -2,88 +2,51 @@ import React from 'react'
 
 const Sample = () => {
   return (
-    <div>
-        {Array.from({ length: 50 }).map((_, i) => (
-  <div key={i}>
-    <span className="absolute left-0 top-0 z-[-1]">
-      <svg
-        width={`${Math.floor(Math.random() * 300) + 200}`}
-        height={`${Math.floor(Math.random() * 200) + 150}`}
-        viewBox="0 0 287 254"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          opacity="0.1"
-          d={`M${Math.random() * 300} 0L${-Math.random() * 100} 254L0 69L${Math.random() * 300} 0Z`}
-          fill={`url(#paint0_linear_${i})`}
+    <>
+ <svg
+      width="100vd"
+      height="100vh"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1558.6442 999.80933"
+    >
+      <g transform="translate(621.71149,-2072.5532)">
+        <rect
+          width="1558.6442"
+          height="999.80933"
+          x="-619.21149"
+          y="2072.5532"
+          fill="none"
         />
-        <defs>
-          <linearGradient
-            id={`paint0_linear_${i}`}
-            x1="-40"
-            y1="117"
-            x2="301"
-            y2="-97"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor={`#${Math.floor(Math.random() * 16777215).toString(16)}`} />
-            <stop offset="1" stopColor={`#${Math.floor(Math.random() * 16777215).toString(16)}`} stopOpacity="0" />
-          </linearGradient>
-        </defs>
-      </svg>
-    </span>
-    <span className="absolute right-0 top-0 z-[-1]">
-      <svg
-        width={`${Math.floor(Math.random() * 700) + 500}`}
-        height={`${Math.floor(Math.random() * 300) + 200}`}
-        viewBox="0 0 628 258"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+        
+        {/* top */}
         <path
-          opacity="0.1"
-          d={`M${Math.random() * 700} 257L345 31L524 -15L${Math.random() * 700} 257Z`}
-          fill={`url(#paint0_linear_0_${i})`}
+          d="M -44.524246,3074.8379 C -44.524246,2408.7405 274.77681,1868.7442 668.64336,1868.7442 1062.5099,1868.7442 1381.8108,2408.7405 1381.8108,3074.8379 L 1336.6756,3074.8379 C 1336.6756,2615.541 1036.8035,2243.2129 666.89716,2243.2129 296.99068,2243.2129 -2.8813048,2615.541 -2.8813048,3074.8379 L -44.524246,3074.8379 z"
+          fill="#f0f9ff"
+          transform="translate(-950, 250)"
         />
+        {/* left */}
         <path
-          opacity="0.1"
-          d={`M0 182L101 -15L142 81L0 182Z`}
-          fill={`url(#paint1_linear_0_${i})`}
+          d="M -1361.7115,1871.9907 C -1361.7115,2538.0881 -1042.4104,3078.0844 -648.54395,3078.0844 -254.67741,3078.0844 64.623594,2538.0881 64.623594,1871.9907 L 19.48833,1871.9907 C 19.48833,2331.2876 -280.38374,2703.6157 -650.29014,2703.6157 -1020.1966,2703.6157 -1320.0686,2331.2876 -1320.0686,1871.9907 L -1361.7115,1871.9907 z"
+          fill="#dbeafe"
+          
         />
-        <defs>
-          <linearGradient
-            id={`paint0_linear_0_${i}`}
-            x1="644"
-            y1="221"
-            x2="429"
-            y2="37"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor={`#${Math.floor(Math.random() * 16777215).toString(16)}`} />
-            <stop offset="1" stopColor={`#${Math.floor(Math.random() * 16777215).toString(16)}`} stopOpacity="0" />
-          </linearGradient>
-          <linearGradient
-            id={`paint1_linear_0_${i}`}
-            x1="18"
-            y1="166"
-            x2="105"
-            y2="32"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor={`#${Math.floor(Math.random() * 16777215).toString(16)}`} />
-            <stop offset="1" stopColor={`#${Math.floor(Math.random() * 16777215).toString(16)}`} stopOpacity="0" />
-          </linearGradient>
-        </defs>
-      </svg>
-    </span>
-  </div>
-))}
+        {/* bottom */}
+        <path
+          d="M -1361.7115,1871.9907 C -1361.7115,2538.0881 -1042.4104,3078.0844 -648.54395,3078.0844 -254.67741,3078.0844 64.623594,2538.0881 64.623594,1871.9907 L 19.48833,1871.9907 C 19.48833,2331.2876 -280.38374,2703.6157 -650.29014,2703.6157 -1020.1966,2703.6157 -1320.0686,2331.2876 -1320.0686,1871.9907 L -1361.7115,1871.9907 z"
+          fill="#f0f9ff"
+          transform="translate(900, 0)"
+        />
 
-
-
-
-    </div>
+        {/* right */}
+        <path
+          d="M -44.524246,3074.8379 C -44.524246,2408.7405 274.77681,1868.7442 668.64336,1868.7442 1062.5099,1868.7442 1381.8108,2408.7405 1381.8108,3074.8379 L 1336.6756,3074.8379 C 1336.6756,2615.541 1036.8035,2243.2129 666.89716,2243.2129 296.99068,2243.2129 -2.8813048,2615.541 -2.8813048,3074.8379 L -44.524246,3074.8379 z"
+          fill="#dbeafe"
+          transform="translate(0, 200)"
+          
+        />
+      </g>
+    </svg>
+    </>
   )
 }
 

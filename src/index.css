@@ -15,3 +15,8 @@ code {
 .bg-black{
   background-color: black;
 }
+
+.sample3{
+  width: 100vw;
+  min-height: 100vh;
+}
