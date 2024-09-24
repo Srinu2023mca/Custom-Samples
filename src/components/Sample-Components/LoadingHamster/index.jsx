@@ -3,7 +3,7 @@ import './style.css'; // Make sure to link your CSS file if you're using externa
 
 const HamsterWheel = () => {
   return (
-    <div>
+    <div className='main-container'>
        <div className='loader'>
       <span style={{ '--i': 1 }}>L</span>
       <span style={{ '--i': 2 }}>o</span>
