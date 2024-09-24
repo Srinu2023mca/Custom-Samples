@@ -1,13 +1,15 @@
 import './App.css';
-// import Sidebar from "./components/sidebar/index"
 import SVGs from "./components/SVGs/index";
 import SampleComponents from "./components/Sample-Components/index"
+import Rouths from "./components/Routhing/index"
+
 function App() {
   
   return (
     <div className="App">
-      <SampleComponents/>
+      {/* <SampleComponents/> */}
       {/* <SVGs/> */}
+      <Rouths/>
     </div>
   );
 }

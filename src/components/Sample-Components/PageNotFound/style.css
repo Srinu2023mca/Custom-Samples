@@ -1,15 +1,24 @@
 .page_404{
-    padding: 40px 0;
     background-color: #fff;
     font-family: 'Arvo', serif;
+    width:100vw;
+    height: 100vh;
+    
 
 }
+
 .page_404 img{
-    width: 100%;
+    /* width:100vw; */
+    /* height: 80vh; */
+    
 }
+.container-box{
+    background-color: #39ac31;
+}
+
 .four_zero_four_bg{
     background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-    height: 500px;
+    height:80vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
