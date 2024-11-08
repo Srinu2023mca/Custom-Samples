@@ -7,11 +7,11 @@
 
 }
 
-.page_404 img{
-    /* width:100vw; */
-    /* height: 80vh; */
+/* .page_404 img{
+    width:100vw; */
+    /* height: 80vh;
     
-}
+} */
 .container-box{
     background-color: #39ac31;
 }
@@ -40,7 +40,7 @@
     text-decoration: none;
     border-radius: 10px;
 }
-.content_box_404{
+/* .content_box_404{
     margin-top: -50px;
 
-}
+} */
